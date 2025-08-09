@@ -1,0 +1,41 @@
+[
+  {
+    "id": "steg-0",
+    "title": "Steg 0 – Forberedelse",
+    "items": [
+      "Kompresjonstest alle sylindre",
+      "Sjekk dysebalanse med VCDS",
+      "Bytt registerreim og vannpumpe",
+      "Bytt oljeledning til turbo (frem/retur)",
+      "Full service: olje, filtre, girkasseolje"
+    ]
+  },
+  {
+    "id": "steg-1",
+    "title": "Steg 1 – Støttemodifikasjoner",
+    "items": [
+      "Monter Front-Mount Intercooler",
+      "Monter 3” Downpipe & eksos",
+      "Monter Sachs SRE clutch & SMF"
+    ]
+  },
+  {
+    "id": "steg-2",
+    "title": "Steg 2 – Ytelsesmodifikasjoner",
+    "items": [
+      "+50% PD dyser",
+      "GTB2260VK Hybrid turbo",
+      "EGT- og boost-målere"
+    ]
+  },
+  {
+    "id": "steg-3",
+    "title": "Steg 3 – ECU Mapping",
+    "items": [
+      "Les original ECU med KESS",
+      "Last opp \"Trygg Kart\" (230 hk / 500 Nm)",
+      "Kjør 500 km, logg EGT og trim",
+      "Last opp \"Full Send Kart\" (275 hk / 600 Nm)"
+    ]
+  }
+]
