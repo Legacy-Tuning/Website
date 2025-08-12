@@ -11,7 +11,7 @@ export type Part = {
   estimertPrisNOK?: number | null;
 };
 
-const kategorier = ['Alle', 'Turbo', 'Dyser', 'Intercooler', 'Eksos', 'Clutch', 'Måleinstrumenter', 'Verktøy'];
+const kategorier = ['Alle', 'Motor', 'Turbo', 'Dyser', 'Intercooler', 'Eksos', 'Clutch', 'Måleinstrumenter', 'Verktøy'];
 
 type ViewMode = 'tabell' | 'kort';
 
@@ -26,6 +26,10 @@ export default function Deler() {
   }, []);
 
   const filtered = useMemo(() => parts.filter((p) => (kategori === 'Alle' ? true : p.kategori === kategori)), [parts, kategori]);
+
+  const sumNOK = useMemo(() => {
+    return filtered.reduce((acc, p) => acc + (typeof p.estimertPrisNOK === 'number' ? p.estimertPrisNOK : 0), 0);
+  }, [filtered]);
 
   function openAll() {
     setModalOpen(true);
@@ -54,46 +58,56 @@ export default function Deler() {
       </div>
 
       {view === 'tabell' ? (
-        <div className="card" style={{ marginTop: 12 }}>
-          <table className="table">
-            <thead>
-              <tr>
-                <th>Kategori</th>
-                <th>Navn</th>
-                <th>Leverandør</th>
-                <th>Lenke</th>
-                <th>Estimert pris</th>
-                <th>Merknader</th>
-              </tr>
-            </thead>
-            <tbody>
-              {filtered.map((p) => (
-                <tr key={p.id}>
-                  <td>{p.kategori}</td>
-                  <td>{p.navn}</td>
-                  <td>{p.leverandør}</td>
-                  <td><a className="btn" href={p.url} target="_blank" rel="noreferrer">Åpne</a></td>
-                  <td>{p.estimertPrisNOK ? `${p.estimertPrisNOK.toLocaleString('no-NO')} kr` : '—'}</td>
-                  <td style={{ color: '#9CA3AF' }}>{p.merknader ?? ''}</td>
+        <>
+          <div className="card" style={{ marginTop: 12 }}>
+            <table className="table">
+              <thead>
+                <tr>
+                  <th>Kategori</th>
+                  <th>Navn</th>
+                  <th>Leverandør</th>
+                  <th>Lenke</th>
+                  <th>Estimert pris</th>
+                  <th>Merknader</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+              </thead>
+              <tbody>
+                {filtered.map((p) => (
+                  <tr key={p.id}>
+                    <td>{p.kategori}</td>
+                    <td>{p.navn}</td>
+                    <td>{p.leverandør}</td>
+                    <td><a className="btn" href={p.url} target="_blank" rel="noreferrer">Åpne</a></td>
+                    <td>{p.estimertPrisNOK ? `${p.estimertPrisNOK.toLocaleString('no-NO')} kr` : '—'}</td>
+                    <td style={{ color: '#9CA3AF' }}>{p.merknader ?? ''}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="card" style={{ marginTop: 12, display: 'flex', justifyContent: 'flex-end' }}>
+            <div style={{ fontWeight: 600 }}>Sum ({kategori}): {sumNOK.toLocaleString('no-NO')} kr</div>
+          </div>
+        </>
       ) : (
-        <div className="grid cols-3" style={{ marginTop: 12 }}>
-          {filtered.map((p) => (
-            <div key={p.id} className="card">
-              <p className="card-title">{p.navn}</p>
-              <p className="card-subtitle">{p.kategori} · {p.leverandør}</p>
-              {p.merknader && <p style={{ color: '#9CA3AF' }}>{p.merknader}</p>}
-              <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 8 }}>
-                <a className="btn" href={p.url} target="_blank" rel="noreferrer">Åpne</a>
-                <span className="badge">{p.estimertPrisNOK ? `${p.estimertPrisNOK.toLocaleString('no-NO')} kr` : '—'}</span>
+        <>
+          <div className="grid cols-3" style={{ marginTop: 12 }}>
+            {filtered.map((p) => (
+              <div key={p.id} className="card">
+                <p className="card-title">{p.navn}</p>
+                <p className="card-subtitle">{p.kategori} · {p.leverandør}</p>
+                {p.merknader && <p style={{ color: '#9CA3AF' }}>{p.merknader}</p>}
+                <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginTop: 8 }}>
+                  <a className="btn" href={p.url} target="_blank" rel="noreferrer">Åpne</a>
+                  <span className="badge">{p.estimertPrisNOK ? `${p.estimertPrisNOK.toLocaleString('no-NO')} kr` : '—'}</span>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+          <div className="card" style={{ marginTop: 12, display: 'flex', justifyContent: 'flex-end' }}>
+            <div style={{ fontWeight: 600 }}>Sum ({kategori}): {sumNOK.toLocaleString('no-NO')} kr</div>
+          </div>
+        </>
       )}
 
       <Modal open={modalOpen} title="Ansvarsfraskrivelse" onClose={() => setModalOpen(false)} actions={

@@ -1,74 +1,101 @@
 [
   {
-    "id": "turbo-gtb2260vk",
-    "kategori": "Turbo",
-    "navn": "Garrett GTB2260VK Hybrid Turbocharger for VW 2.5 TDI",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/garrett-gtb2260vk-hybrid-turbocharger-for-vw-2-5-tdi.html",
-    "merknader": "Rask spool, nok for 280+ hk",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "dyser-firad-50",
-    "kategori": "Dyser",
-    "navn": "Firad +50% PD Dyser for 2.5 TDI BNZ/AXE",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/firad-performance-injector-nozzles-for-vw-audi-seat-skoda-1-9-2-0-2-5-pd-tdi.html",
-    "merknader": "God atomisering, nok for 275 hk",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "intercooler-fmic",
-    "kategori": "Intercooler",
-    "navn": "Front-Mount Intercooler Kit for T5 2.5 TDI",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/front-mount-intercooler-kit-for-vw-transporter-t5-2-5-tdi.html",
-    "merknader": "",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "eksos-3in-dp",
-    "kategori": "Eksos",
-    "navn": "3” Downpipe (decat/off-road) for T5 2.5 TDI",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/3-downpipe-decat-for-vw-transporter-t5-2-5-tdi-bnz-axe.html",
-    "merknader": "",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "clutch-sachs-sre",
-    "kategori": "Clutch",
-    "navn": "Sachs SRE Performance Clutch & SMF Kit (650 Nm)",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/sachs-sre-performance-clutch-kit-smf-conversion-for-vw-transporter-t5-2-5-tdi.html",
-    "merknader": "",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "gauge-egt",
-    "kategori": "Måleinstrumenter",
-    "navn": "EGT Måler",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/egt-exhaust-gas-temperature-gauge-kit.html",
-    "merknader": "",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "gauge-boost",
-    "kategori": "Måleinstrumenter",
-    "navn": "Boost Måler",
-    "leverandør": "Darkside Developments",
-    "url": "https://www.darksidedevelopments.co.uk/products/boost-gauge-fitting-kit-for-1-9-2-0-2-5-pd-tdi.html",
-    "merknader": "",
-    "estimertPrisNOK": null
-  },
-  {
-    "id": "tool-kessv2",
+    "id": "tool-kess3",
     "kategori": "Verktøy",
-    "navn": "KESS V2 Master/Slave Tool",
+    "navn": "Alientech KESS3 Tool",
     "leverandør": "Alientech",
-    "url": "https://www.alientech-tools.com/kessv2",
-    "merknader": "",
-    "estimertPrisNOK": null
+    "url": "https://www.tuningtools.com/alientech-kess3-tool",
+    "merknader": "Huk av for Master-aktiveringer. MASTER OBD - Car - LCV Protocols activation og MASTER BENCH-BOOT - Car - LCV Protocols activation",
+    "estimertPrisNOK": 73132
+  },
+  {
+    "id": "dsd-gtb-kit-t5-bnz-bpc",
+    "kategori": "Turbo",
+    "navn": "Darkside GTB Turbo Kit for VW Transporter 2.5 TDi 5 Cylinder BNZ / BPC Engines",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/darkside-gtb-turbo-kit-for-vw-transporter-2-5-tdi-5-cylinder-bnz-bpc-engines.html",
+    "merknader": "Velg GTB2260VK, 2008, BNZ, Titanium blanket.",
+    "estimertPrisNOK": 39368
+  },
+  {
+    "id": "dsd-hard-pipe-bnz-bpc",
+    "kategori": "Intercooler",
+    "navn": "Hard Pipework Kit for VW Transporter T5 2.5 TDi 5 Cylinder BNZ / BPC Engine",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/hard-pipework-kit-for-vw-transporter-t5-2-5-tdi-5-cylinder-bnz-bpc-engine.html",
+    "merknader": "Velg GTB Turbo Kit, Darkside Intercooler.",
+    "estimertPrisNOK": 3111
+  },
+  {
+    "id": "dsd-fmic-t5-uprated",
+    "kategori": "Intercooler",
+    "navn": "Darkside Uprated Front Mount Intercooler (FMIC) for VW Transporter T5 / T5.1 / T6",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/darkside-uprated-front-mount-intercooler-fmic-for-vw-transporter-t5-1-9-2-5-t5-1-t6-2-0-tdi-and-2-0-tdi-bi-turbo-models.html",
+    "merknader": "Velg 1.9/2.0 and 2.5 TDI Models Large.",
+    "estimertPrisNOK": 4950
+  },
+  {
+    "id": "dsd-clutch-t5-25tdi-sre-dmf",
+    "kategori": "Clutch",
+    "navn": "Transporter T5 2.5 TDI LuK Dual Mass Flywheel and Sachs SRE Clutch Kit",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/transporter-t5-2-5-tdi-luk-dual-mass-flywheel-and-sachs-sre-clutch-kit.html",
+    "merknader": "Velg Sintered Paddle Disc",
+    "estimertPrisNOK": 12376
+  },
+  {
+    "id": "dsd-injectors-t5-25-bnz-50",
+    "kategori": "Dyser",
+    "navn": "VW Transporter T5 2.5 TDI 5 Cylinder Race PD Injectors with Custom 50% Nozzles",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/vw-transporter-t5-2-5-tdi-5-cylinder-race-pd-injectors-with-custom-50-nozzles.html",
+    "merknader": "Velg BPC/BNZ. 50% nozzles. Pay Core Surcharge.",
+    "estimertPrisNOK": 19801
+  },
+  {
+    "id": "dsd-gauge-hewitt-boost-emp",
+    "kategori": "Måleinstrumenter",
+    "navn": "2\" Hewitt Industries 0-100psi Dual Needle Turbo Boost and Exhaust Manifold Pressure Gauge",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/2-hewitt-industries-0-100psi-dual-needle-turbo-boost-and-exhaust-manifold-pressure-gauge.html",
+    "merknader": "Inkluder M6 fitting (EGR delete) og Soot Trap.",
+    "estimertPrisNOK": 4880
+  },
+  {
+    "id": "dsd-egr-delete-bnz-bpc",
+    "kategori": "Motor",
+    "navn": "Darkside Transporter T5 / Touareg 5 Cylinder EGR Delete Race Pipe for 2.5 TDI BNZ & BPC Engines",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/darkside-2-5-tdi-transporter-t5-touareg-5-cylinder-egr-delete-race-pipe-for-bnz-bpc-engines.html",
+    "merknader": "Velg EGR and Cooler Delete. Finish: Anodised Black.",
+    "estimertPrisNOK": 2051
+  },
+  {
+    "id": "dsd-catback-t5-swb",
+    "kategori": "Eksos",
+    "navn": "Darkside VW Transporter T5 2.5 / 2.0 (including 4Motion) Cat-Back Exhaust System",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/darkside-vw-transporter-t5-2-5-2-0-including-4motion-cat-back-exhaust-system.html",
+    "merknader": "SWB. Resonated (Quieter - 1 Silencer). Discrete Tip. Downpipe size: 2.5\".",
+    "estimertPrisNOK": 6931
+  },
+  {
+    "id": "dsd-sportscat-2-5-euro4",
+    "kategori": "Eksos",
+    "navn": "High Flow 200 Cell (CPSI) Universal Sports CAT 2.5\" Euro 4 Type Approved",
+    "leverandør": "Darkside Developments",
+    "url": "https://www.darksidedevelopments.co.uk/products/high-flow-200-cell-cpsi-universal-sports-cat-catalytic-converter-pipe-2-5-3-0-euro-4-type-approved.html",
+    "merknader": "Size: 2.5\" (63mm). Add: Supply Part Only.",
+    "estimertPrisNOK": 2476
+  },
+  {
+    "id": "cutout-electric-2-5",
+    "kategori": "Eksos",
+    "navn": "Electric Exhaust Cutout 2.5 inch (63.5mm)",
+    "leverandør": "Speeding",
+    "url": "https://www.speeding.no/p/motor-tuning/eksos-deler/eksosspjeld-eksosventil/elektronisk-eksosventil-25-635mm.html",
+    "merknader": "Monteres etter sports-kat og før bakpotte. Fjernkontroll. Kun show/off-road ved åpen ventil.",
+    "estimertPrisNOK": 1826
   }
 ]
