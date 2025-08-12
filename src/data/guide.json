@@ -3,39 +3,50 @@
     "id": "steg-0",
     "title": "Steg 0 – Forberedelse",
     "items": [
-      "Kompresjonstest alle sylindre",
-      "Sjekk dysebalanse med VCDS",
+      "Kompresjonstest og VCDS-feilsøk (DTC-sjekk)",
+      "Full service: motorolje/filter, drivstoffilter, girkasseolje, bremsevæske",
       "Bytt registerreim og vannpumpe",
-      "Bytt oljeledning til turbo (frem/retur)",
-      "Full service: olje, filtre, girkasseolje"
+      "Nye turbo olje-/returlinjer og kobberskiver",
+      "Kontroller eksosoppsett (sports-kat planlagt)"
     ]
   },
   {
     "id": "steg-1",
-    "title": "Steg 1 – Støttemodifikasjoner",
+    "title": "Steg 1 – Luft/eksos og kjøling",
     "items": [
-      "Monter Front-Mount Intercooler",
-      "Monter 3” Downpipe & eksos",
-      "Monter Sachs SRE clutch & SMF"
+      "Darkside Uprated FMIC (Large) + Hard Pipework Kit for BNZ/BPC",
+      "EGR & Cooler Delete (anodisert svart)",
+      "2.5\" Euro 4 sports-katalysator – sveis inn i midtseksjon",
+      "Cat‑back, resonated (stille), discrete tip – SWB",
+      "Elektrisk 2.5\" cutout etter kat (show/off‑road)"
     ]
   },
   {
     "id": "steg-2",
-    "title": "Steg 2 – Ytelsesmodifikasjoner",
+    "title": "Steg 2 – Drivlinje og måling",
     "items": [
-      "+50% PD dyser",
-      "GTB2260VK Hybrid turbo",
-      "EGT- og boost-målere"
+      "Sachs SRE DMF clutchkit (Sintered Paddle Disc)",
+      "Hewitt 0–100 psi Dual‑needle Boost/EMP + M6 fitting + soot trap",
+      "Overvåk EGT (< 900°C ved varig last) og boost/EMP"
     ]
   },
   {
     "id": "steg-3",
-    "title": "Steg 3 – ECU Mapping",
+    "title": "Steg 3 – Turbo og drivstoff",
     "items": [
-      "Les original ECU med KESS",
-      "Last opp \"Trygg Kart\" (230 hk / 500 Nm)",
-      "Kjør 500 km, logg EGT og trim",
-      "Last opp \"Full Send Kart\" (275 hk / 600 Nm)"
+      "Darkside GTB Turbo Kit BNZ/BPC med GTB2260VK (Titanium blanket)",
+      "Race PD‑injektorer med 50% nozzles (BPC/BNZ)",
+      "Kontroller lekkasjer, luft systemet, varm opp og etterstram"
+    ]
+  },
+  {
+    "id": "steg-4",
+    "title": "Steg 4 – ECU og mapping",
+    "items": [
+      "KESS3 Master OBD + Bench‑Boot (Car/LCV) – les originalfil",
+      "Pre‑/post‑diagnose (DTC) og baseline‑logger",
+      "Trygg map først (~230 hk/500 Nm), verifiser EGT/EMP",
+      "Full map mot mål 275 hk / 600 Nm – hold EGT < 900°C"
     ]
   }
 ]
